@@ -1,0 +1,297 @@
+body{
+	margin: 0px;
+}
+header 
+	{
+	 	display: flex;
+	 	flex-direction: row;
+	 	justify-content: space-between;
+	 	align-items: center;
+	 	padding-right: 5%;
+	 	padding-left: 5%;
+	 	border-bottom: 1px solid brown;
+	 	font-family: 'IBM Plex Sans';
+	}
+
+	.rightheader
+	{
+	 	display: flex;
+	 	margin-right: 5%;
+	}
+	.rightheader h4
+	{
+		text-align: right;
+	}
+
+	.logo
+	{
+		padding: 7%;
+	    margin: 13px 5px 13px 0px;
+	    background-color: #b99956e6;
+	    border-radius: 50%;
+	}
+	.logo i
+	{
+		color: white;
+	}
+	.dropdown 
+	{
+		float: left;
+		overflow: hidden;
+		padding: 23px 15px 20px 10px;
+	}
+	.dropdown:hover
+	{
+  		background-color: white;
+	}
+	.dropdown-content 
+	{
+		display: none;
+		position: absolute;
+		background-color: white;
+		width: 100%;
+		left: 0;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content .header 
+	{
+		padding: 16px;
+		color: black;
+		margin-left: 5%;
+	}
+	.dropdown:hover .dropdown-content 
+	{
+  		display: block;
+  		margin-top: 30px;
+	}
+	.header h3
+	{
+		font-family: 'IBM Plex Sans';
+		color:black;
+		font-size: smaller;
+		margin-bottom: 3%;
+	}
+	.header h3:hover
+	{
+		color: #b99956e6;
+	}
+
+	.firstdiv
+	{
+		height: 400px;
+		text-align: center;
+		background-color: #0000002e;
+		padding-bottom: 10%;
+		color: white;
+		font-family: 'IBM Plex Sans';
+	}
+	.firstdiv h2
+	{
+		margin: 0px;
+		padding-top: 10%;
+		font-size: x-large;
+	}
+	.btn1
+	{
+		background-color: #b99956e6;
+		padding: 15px;
+		border: 0px; 
+		color: white;
+		width: 12%;
+		font-family:'IBM Plex Sans';
+	}
+	.btn2
+	{
+		background-color: white;
+		padding: 15px;
+		border: 0px;
+		width: 12%;
+		font-family:'IBM Plex Sans';
+		font-weight: bolder;
+		text-align: initial;
+	}
+
+	.seconddiv
+	{
+		background-image:  url("teammeet.jpg");
+		height: 500px;
+		background-size: cover; 
+		display: flex;
+		font-family:'IBM Plex Sans';
+		font-weight: bolder;
+	}
+	.subdiv
+	{
+		width: 50%;
+		background-color: #a7a196b8;
+		padding-top: 15%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.seconddiv h4
+	{
+		color:white;
+	}
+	.downloadbtn
+	{
+		background-color: white;
+		padding: 15px;
+		border: 0px;
+		width: 20%;
+		font-family:'IBM Plex Sans';
+		font-weight: bolder;
+		text-align: initial;
+	}
+
+	.thirddiv
+	{
+		text-align: center;
+		font-family:'IBM Plex Sans';
+	}
+	.thirddiv h3
+	{
+		margin-top: 3%;
+	}
+	.thirddiv h5
+	{
+		color: #ff8e8ed1;
+	}
+	.Services
+	{
+		display: flex;
+		padding-bottom: 5%;
+	}
+	.left ,.right
+	{
+		width: 50%;
+	}
+	.serviceicon
+	{
+		padding:5% 2% 5% 5%;
+	}
+	.services1
+	{
+		width: 60%;
+		margin-left: 30%;
+		text-align: end;
+	}
+	.services1 p
+	{
+		text-align: justify;
+		color: #ff8e8ed1;
+	}
+	.serviceicon2
+	{
+		padding:5% 5% 5% 2%;
+	}
+	.services2
+	{
+		width: 60%;
+		margin-right: 30%;
+		text-align: initial;
+	}
+	.services2 p
+	{
+		text-align: justify;
+		color: #ff8e8ed1;
+	}
+	.Services img
+	{
+		width:50px;
+		height:50px;
+	}
+	.leftin,.rightin
+	{
+		display: flex;
+	}
+
+	.fourthdiv
+	{
+		text-align: center;
+		background-image: url("road.jpg");
+		background-size: cover;
+		color: white;
+		font-family:'IBM Plex Sans';
+	}
+.fourthdiv h2
+	{
+		margin: 0px;
+    	padding-top: 5%;
+	}
+	.tests
+	{
+		margin: 5% 10% 0% 10%;
+		display: flex;
+		padding-bottom: 10%;
+	}
+	.test
+	{
+		width: 30%;
+		margin: 0% 2% 0% 2%;
+		opacity: 0.6;
+	}
+	.test:hover
+	{
+		opacity: 1;
+	}
+
+	.fifthdiv
+	{
+		text-align: center;
+		font-family:'IBM Plex Sans';
+		padding-bottom: 10%;
+	}
+	.fifthdiv h5
+	{
+		color: #b99956;
+	}
+	.boxes
+	{
+		display: flex;
+		margin: 0% 5% 0% 5%;
+		padding-bottom: 10%;
+	}
+	.boxes img
+	{
+      height: 200px;
+	}
+	.blog
+	{
+		background-color: #b9995685;
+		padding: 0% 5% 0% 5%;
+	}
+	.blog h3
+	{
+		color: #b99956;
+	}
+	.box
+	{
+		width: 30%;
+		margin: 0% 2% 0% 2%;
+		height: 250px;
+	}
+	.box .blogbox
+	{
+		display: flex;
+		height: inherit;
+	}
+	.sixthdiv
+	{
+		text-align: center;
+		color: white;
+		background-color: black;
+		padding: 10% 0% 10% 0%;
+		font-family:'IBM Plex Sans';
+	}
+
+	.sixthdiv input
+	{
+      padding: 15px;
+	}
+	.sixthdiv button
+	{
+      padding: 15px; 
+      background-color:#b99956;
+	}
